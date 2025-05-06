@@ -6,7 +6,10 @@ from tkinter import messagebox
 prolog = Prolog()
 prolog.consult("pcos_rules.pl")  
 
-gejala_list = ["irregular_cycle", "high_testosterone", "ovarian_cysts"]
+gejala_list = [
+    "irregular_cycle", "high_testosterone", "ovarian_cysts",
+    "acne", "obesity", "mood_swings"
+]
 current_index = 0  
 
 def get_question(gejala):
